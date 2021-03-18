@@ -6,8 +6,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'  " Temas para airline
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/neco-syntax'  " Fuente general de auto completado
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
@@ -23,14 +22,10 @@ let g:airline_powerline_fonts = 1
 
 set noshowmode  " No mostrar el modo actual (ya lo muestra la barra de estado)
 
-" Activar deoplete al iniciar Neovim
-let g:deoplete#enable_at_startup = 1
+" No mostrar en ciertos tipos de buffers y archivos
+let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
+let g:indentLine_bufNameExclude = ['NERD_tree.*', 'term:.*']
 
-" Cerrar automaticamente la ventana de vista previa (donde se muestra documentación, si existe)
-augroup deopleteCompleteDoneAu
-  autocmd!
-  autocmd CompleteDone * silent! pclose!
-augroup END
 
 
 
