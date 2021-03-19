@@ -25,5 +25,18 @@ nvim init.vim
 
 Once inside ``` init.vim ``` put ``` :PlugInstall ``` and the plugins will begin to install once this is done put ``` :x ``` and then in the linux terminal you can use nvim to edit any file.
 
+# Install .bashrc
 
+To install .bashrc you must run these commands in your linux terminal:
+
+```shell
+
+rm -rf .bashrc
+wget https://raw.githubusercontent.com/dylan14567/dotfiles/main/.bashrc
+wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+mv git-prompt.sh .git-prompt.sh
+
+```
+
+once this is done, you just need to leave the terminal and re-enter and you will see a new presentation in the terminal.
 
