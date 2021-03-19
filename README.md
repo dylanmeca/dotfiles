@@ -13,3 +13,18 @@ My repository of dotfiles, here you will find the files and some settings that I
 
 I have created something that customizes the neovim code editor, and in order to install it you must go to linux and run these commands.
 
+```bash
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+mkdir -p ~/.config/nvim
+cd ~/.config/nvim
+wget https://raw.githubusercontent.com/dylan14567/dotfiles/main/.config/nvim/init.vim
+nvim init.vim
+
+```
+
+Once these commands are executed inside the  ```init.vim ``` file you must put ``` :so ~/.config/nvim/init.vim ```, then you must put ``` :x ``` and save then you must edit the file again with ``` nvim init.vim ``` and inside the file put the ``` :PlugInstall ``` and here it will begin to install the plugins then put ``` :x ``` and once inside the linux terminal you can edit any file with nvim and you will have the new design.
+
+
+
+
