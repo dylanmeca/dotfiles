@@ -10,7 +10,7 @@
 My repository of dotfiles, here you will find the files and some settings that I use in linux.
 
 # Install custom neovim
-[Code](https://github.com/dylan14567/dotfiles/raw/main/.screenshots/20210318_200246.jpg)
+[Code!](https://github.com/dylan14567/dotfiles/raw/main/.screenshots/20210318_200246.jpg)
 
 I have created something that customizes the neovim code editor, and in order to install it you must go to linux and run these commands.
 
