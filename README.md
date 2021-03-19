@@ -23,8 +23,7 @@ nvim init.vim
 
 ```
 
-Once these commands are executed inside the  ```init.vim ``` file you must put ``` :so ~/.config/nvim/init.vim ```, then you must put ``` :x ``` and save then you must edit the file again with ``` nvim init.vim ``` and inside the file put the ``` :PlugInstall ``` and here it will begin to install the plugins then put ``` :x ``` and once inside the linux terminal you can edit any file with nvim and you will have the new design.
-
+Once inside ``` init.vim ``` put ``` :PlugInstall ``` and the plugins will begin to install once this is done put ``` :x ``` and then in the linux terminal you can use nvim to edit any file.
 
 
 
