@@ -43,7 +43,7 @@ once this is done, you just need to leave the terminal and re-enter and you will
 
 ## Authors
 
-* **Dylan Alexander** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
+* **Dylan Meca** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
 
 You can also look at the list of all [contributors](https://github.com/dylan14567/dotfiles/contributors) who have participated in this project.
 
