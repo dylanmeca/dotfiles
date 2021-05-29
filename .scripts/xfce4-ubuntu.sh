@@ -1,6 +1,7 @@
 #!/bin/bash
 apt update -y && apt upgrade -y
-apt install xfce4 xfce4-terminal tightvncserver -y
+apt install tightvncserver -y
+apt install xfce4 xfce4-terminal -y
 apt install xfe -y
 apt clean
 mkdir -p ~/.vnc
