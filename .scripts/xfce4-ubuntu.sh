@@ -36,4 +36,4 @@ chmod +x vncstop
 cd
 clear
 
-echo " Run vncstart to start vnc and vnc stop to stop vnc "
+echo " Run vncstart to start vnc and vncstop to stop vnc "
