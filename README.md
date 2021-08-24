@@ -1,7 +1,7 @@
 # dotfiles
 [![Build Status](https://img.shields.io/github/stars/dylanmeca/dotfiles.svg)](https://github.com/dylanmeca/dotfiles)
 [![License](https://img.shields.io/github/license/dylanmeca/dotfiles.svg)](https://github.com/dylanmeca/dotfiles/blob/master/LICENSE)
-[![Dylan Meca](https://img.shields.io/badge/author-dylanmeca-green.svg)](https://github.com/dylanmeca)
+[![dylanmeca](https://img.shields.io/badge/author-dylanmeca-green.svg)](https://github.com/dylanmeca)
 [![bug_report](https://img.shields.io/badge/bug-report-red.svg)](https://github.com/dylanmeca/dotfiles/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 [![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylanmeca/dotfiles/blob/master/SECURITY.md)
 [![Bash](https://img.shields.io/badge/language-Bash-blue.svg)](https://www.gnu.org/software/bash/)
