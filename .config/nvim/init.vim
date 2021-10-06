@@ -2,7 +2,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Aquí irán los plugins a instalar 
-Plug 'iCyMind/NeoSolarized'
+Plug 'joshdick/onedark.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'  " Temas para airline
@@ -19,9 +19,8 @@ call plug#end()
 
 " Luego de esta línea puedes agregar tus configuraciones y mappings
 
-set termguicolors  " Activa true colors en la terminal
-set background=dark  " Fondo del tema: dark/light
-colorscheme NeoSolarized  " Activa tema NeoSolarized
+set termguicolors  " Activa true colors en la terminal  
+colorscheme onedark 
 
 let g:NERDTreeChDirMode = 2 
 map <F2> :NERDTreeToggle<CR>
