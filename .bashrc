@@ -29,3 +29,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Java Home
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+
+# Snap PATH
+export PATH="/snap/bin:$PATH"
