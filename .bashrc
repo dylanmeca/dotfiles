@@ -33,6 +33,10 @@ export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 # Snap PATH
 export PATH="/snap/bin:$PATH"
 
+# Go PATH
+export PATH=$PATH:/usr/local/go/bin
+export PATH="$HOME/go/bin:$PATH"
+
 # Android Studio PATH
 export PATH="/opt/android-studio/bin:$PATH"
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
