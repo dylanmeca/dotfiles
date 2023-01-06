@@ -50,3 +50,12 @@ export PATH="/opt/android-studio/bin:$PATH"
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+# FZF
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Functions
+function rmk(){
+        scrub -p dod $1
+        shred -zun 10 -v $1
+}
