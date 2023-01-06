@@ -20,7 +20,15 @@ export PATH="$HOME/gems/bin:$PATH"
 export PATH="$HOME/.local/share/bob/v0.7.0/nvim-linux64/bin:$PATH"
 
 # Cat personalized
-alias cat="cat -n"
+#alias cat="cat -n"
+
+# Manual aliases
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias lla='lsd -lha --group-dirs=first'
+alias ls='lsd --group-dirs=first'
+alias cat='bat'
 
 #NVM PATH
 export NVM_DIR="$HOME/.nvm"
