@@ -78,3 +78,6 @@ eval "$(oh-my-posh prompt init bash --config $HOME/.poshthemes/catppuccin_mocha.
 # Intel Mkl (Math Kernel Library)
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/include/mkl
 export MKL_HOME="/usr/include/mkl"
+
+# SSH-Agent
+eval "$(ssh-agent -s)"
