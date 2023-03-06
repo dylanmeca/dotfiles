@@ -7,7 +7,7 @@
             "brightCyan": "#61D6D6",
             "brightGreen": "#26A269",
             "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
+            "brightRed": "#E74856",
             "brightWhite": "#F2F2F2",
             "brightYellow": "#F9F1A5",
             "cursorColor": "#FFFFFF",
@@ -16,7 +16,7 @@
             "green": "#26A269",
             "name": "Campbell",
             "purple": "#881798",
-            "red": "#C21A23",
+            "red": "#E74856",
             "selectionBackground": "#FFFFFF",
             "white": "#FFFFFF",
             "yellow": "#C19C00"
