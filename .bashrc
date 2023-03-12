@@ -9,6 +9,9 @@ export PATH="/home/dylanmeca/.local/bin:$PATH"
 # Drop Cache
 alias drop_cache="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'\""
 
+# Clean
+alias clean="sudo apt clean && journalctl --disk-usage && sudo journalctl --vacuum-time=3d"
+
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
