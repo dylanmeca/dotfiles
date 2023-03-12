@@ -1,4 +1,0 @@
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/intel/mkl/lib
-gfortran -o my_program my_program.f90 -lmkl_rt
-
-gfortran -o my_program my_program.f90 -L /path/to/intel/mkl/lib -lmkl_rt
