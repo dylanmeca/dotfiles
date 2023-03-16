@@ -20,7 +20,7 @@ export PATH="$HOME/gems/bin:$PATH"
 . "$HOME/.cargo/env"
 
 # nvim PATH
-export PATH="$HOME/.local/share/bob/v0.7.0/nvim-linux64/bin:$PATH"
+export PATH="$HOME/.local/share/bob/v0.8.3/nvim-linux64/bin:$PATH"
 
 # Cat personalized
 #alias cat="cat -n"
