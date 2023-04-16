@@ -1,3 +1,15 @@
+ "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
+                "face": "FiraCode Nerd Font Mono"
+            },
+            "useAcrylic": true,
+            "acrylicOpacity": 0.5,
+        },
+
       {
             "background": "#00061A",
             "black": "#171421",
