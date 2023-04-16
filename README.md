@@ -6,6 +6,7 @@
 [![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylanmeca/dotfiles/blob/master/SECURITY.md)
 [![Bash](https://img.shields.io/badge/language-Bash-blue.svg)](https://www.gnu.org/software/bash/)
 [![Vim](https://img.shields.io/badge/language-Vim-green.svg)](https://www.vim.org)
+![resultado](https://github.com/dylanmeca/dotfiles/raw/main/resultado.png)
 
 My repository of dotfiles, here you will find the files and some settings that I use in linux.
 
