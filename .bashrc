@@ -31,7 +31,8 @@ alias la='lsd -a --group-dirs=first'
 alias l='lsd --group-dirs=first'
 alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
-alias cat='bat'
+alias cat='batcat'
+alias icat='icat -m 24bit'
 
 #NVM PATH
 export NVM_DIR="$HOME/.nvm"
