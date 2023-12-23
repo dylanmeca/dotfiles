@@ -1,0 +1,7 @@
+// Color de terminal
+#1D1F26
+#00061A
+
+// Fuente
+FiraCode Nerd Font Mono
+FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
