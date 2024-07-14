@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{nopageno} % Paquete para eliminar los números de página
+\usepackage{multicol} % Paquete para las columnas múltiples
+\usepackage{titlesec} % Paquete para personalizar los títulos de las secciones
+
+% Definir un color azul más oscuro
+\definecolor{tituloColor}{RGB}{70, 130, 180}
+
+% Personalizar el tamaño de los títulos de las secciones
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+
+% Ajustar la separación entre columnas
+\setlength{\columnsep}{14.2pt} % Aproximadamente 0.5 cm
+
+\title{\textcolor{tituloColor}{Titulo}}
+\author{Tu Nombre}
+\date{} % No establece ninguna fecha
+
+\begin{document}
+	
+	% Redefinir el comando \maketitle
+	\makeatletter
+	\renewcommand{\maketitle}{
+		\begin{center}
+			{\LARGE \@title \par}
+			\vskip 1em
+			{\large \@author \par}
+			\vskip 1.5em
+		\end{center}
+	}
+	\makeatother
+	
+	\maketitle
+	
+	\begin{abstract}
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet viverra lorem. Sed elementum augue dolor, eget tempor justo porttitor at. 
+	\end{abstract}
+	
+	\begin{multicols}{2}
+		\section{Introducción}
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet viverra lorem. Sed elementum augue dolor, eget tempor justo porttitor at. Donec elit magna, scelerisque a tempor et, suscipit eget libero. Nunc magna lorem, tincidunt ut ligula non, mattis eleifend erat. Nullam ornare nunc ligula, ut gravida elit rutrum nec. 
+		
+		\section{Material y método}
+		Nunc leo augue, scelerisque non tellus non, commodo imperdiet nulla. Sed gravida vehicula nisl a placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas aliquet mauris non justo sagittis tempor. Duis et vestibulum lectus. Maecenas sagittis condimentum ante, sit amet hendrerit massa ultrices eu. Sed at nisl et arcu venenatis posuere sit amet sit amet felis. Pellentesque a neque congue, tincidunt ligula non, euismod nibh. Integer faucibus, eros eu lobortis fermentum, mauris nunc imperdiet tellus, id faucibus nunc tortor sit amet mi. Suspendisse tempus condimentum vulputate.
+		
+		\section{Resultados}
+		Donec vitae enim id lacus semper feugiat non ac nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec pulvinar augue. In non elit ut risus aliquet aliquet. Vestibulum porta bibendum pretium. Mauris ut justo nisl. Sed id neque ac odio facilisis rutrum. In hac habitasse platea dictumst. Fusce non lacinia diam. Nullam id ligula arcu. Proin ut lorem a turpis faucibus semper ac interdum lectus. Mauris felis nunc, aliquet in rhoncus at, convallis nec libero. Morbi in venenatis enim, sed posuere leo.
+		
+		\section{Discusión}
+		Fusce mollis lacus purus, at eleifend risus scelerisque sed. Pellentesque fermentum dui non massa pharetra, eu placerat orci pharetra. Suspendisse in lobortis tellus, eu tincidunt tellus. Nam id justo elit. Proin pretium metus ante, et lacinia urna dapibus at. Suspendisse potenti. Quisque laoreet euismod metus quis egestas. Nam dictum nulla lorem, quis pretium sapien aliquet ac. Maecenas euismod neque dolor, non sollicitudin purus laoreet sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec metus nisi, sagittis in tellus commodo, cursus facilisis urna.
+		
+		\section{Conclusión}
+		Suspendisse metus tellus, tempus vel ex in, viverra feugiat libero. Curabitur porta consequat fermentum. Vivamus in leo magna. Ut vulputate tortor at enim lacinia, sed ultrices neque mattis. Ut magna neque, luctus vitae sapien eget, tristique facilisis arcu. Pellentesque placerat risus ac nibh imperdiet, fermentum feugiat neque blandit. Morbi eleifend sodales sapien, id tincidunt nisi bibendum eget. In sit amet eleifend nibh. Donec consectetur lorem eget dolor viverra pulvinar sit amet eget massa.
+	\end{multicols}
+	
+	\renewcommand{\refname}{Referencias} % Cambia el nombre de la sección de referencias
+	\begin{thebibliography}{9}
+		\bibitem{autor2024}
+		Juan Pérez,
+		\textit{El Estudio de Casos en Matemáticas},
+		Editorial Científica, 2024.
+		
+		\bibitem{autor2023}
+		María López,
+		"Nuevas Tendencias en Física Cuántica",
+		Revista de Física, vol. 42, no. 7, pp. 123-145, 2023.
+		
+		\bibitem{autor2022}
+		Carlos García,
+		"Avances en la Programación Matemática",
+		Actas del Congreso Internacional de Matemáticas, pp. 567-578, 2022.
+	\end{thebibliography}
+	
+\end{document}
