@@ -1,4 +1,5 @@
-\documentclass{article}
+\documentclass[a4paper, 10pt]{article}
+\usepackage[a4paper, margin=0.75in]{geometry} % Paquete para ajustar márgenes
 \usepackage{xcolor}
 \usepackage{nopageno} % Paquete para eliminar los números de página
 \usepackage{multicol} % Paquete para las columnas múltiples
@@ -34,9 +35,25 @@
 	
 	\maketitle
 	
-	\begin{abstract}
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet viverra lorem. Sed elementum augue dolor, eget tempor justo porttitor at. 
-	\end{abstract}
+	% Añadir las líneas de separación en el abstract y la sección de keywords
+	\vspace{0.5em} % Espacio antes del abstract
+	\hrule % Línea superior
+	\vspace*{0.01em} % Espacio después de la línea superior
+	
+	% Alinear el abstract a la izquierda y ajustar el tamaño de la letra
+	\noindent
+	\begin{flushleft}
+		\textbf{Abstract:} This paper delves into the intricate relationship between astronomy and computing, exploring the impact of computational techniques on astronomical research. A case study is presented, highlighting the application of advanced algorithms to analyze astronomical data. The study includes an equation, an image, and a data table to illustrate key concepts.
+	\end{flushleft}
+	
+	\vspace*{0.01em} % Espacio muy corto entre el abstract y los keywords
+	\begin{flushleft}
+		\textbf{Keywords:} Astronomy \& Computing, Astronomy, Computing, Interdisciplinary Research, Data Analysis
+	\end{flushleft}
+	
+	\vspace*{0.01em} % Espacio antes de la línea inferior
+	\hrule % Línea inferior
+	\vspace{1em} % Espacio antes del contenido principal
 	
 	\begin{multicols}{2}
 		\section{Introducción}
@@ -54,6 +71,10 @@
 		\section{Conclusión}
 		Suspendisse metus tellus, tempus vel ex in, viverra feugiat libero. Curabitur porta consequat fermentum. Vivamus in leo magna. Ut vulputate tortor at enim lacinia, sed ultrices neque mattis. Ut magna neque, luctus vitae sapien eget, tristique facilisis arcu. Pellentesque placerat risus ac nibh imperdiet, fermentum feugiat neque blandit. Morbi eleifend sodales sapien, id tincidunt nisi bibendum eget. In sit amet eleifend nibh. Donec consectetur lorem eget dolor viverra pulvinar sit amet eget massa.
 	\end{multicols}
+	
+	\vspace{1em} % Espacio antes de la línea
+	\hrule % Línea antes de las referencias
+	\vspace{1em} % Espacio antes de las referencias
 	
 	\renewcommand{\refname}{Referencias} % Cambia el nombre de la sección de referencias
 	\begin{thebibliography}{9}
