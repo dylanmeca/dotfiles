@@ -4,6 +4,14 @@
 \usepackage{nopageno} % Paquete para eliminar los números de página
 \usepackage{multicol} % Paquete para las columnas múltiples
 \usepackage{titlesec} % Paquete para personalizar los títulos de las secciones
+\usepackage{cite}
+\usepackage{graphicx} % Paquete necesario para incluir imágenes
+\usepackage{float} % Paquete para controlar mejor la colocación de figuras
+\usepackage[pdftex, 
+pdfauthor={Autor},
+pdftitle={Titulo},
+pdfsubject={Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris tortor},
+pdfkeywords={Astronomy, Computing, Astronomy, Computing, Interdisciplinary Research, Data Analysis}]{hyperref}
 
 % Definir un color azul más oscuro
 \definecolor{tituloColor}{RGB}{70, 130, 180}
@@ -60,6 +68,14 @@
 	\begin{multicols}{2}
 		\section{Introducción}
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet viverra lorem. Sed elementum augue dolor, eget tempor justo porttitor at. Donec elit magna, scelerisque a tempor et, suscipit eget libero. Nunc magna lorem, tincidunt ut ligula non, mattis eleifend erat. Nullam ornare nunc ligula, ut gravida elit rutrum nec. 
+                \begin{figure}[H] % Uso del entorno figure
+		 	\centering
+		 	\includegraphics[width=1\columnwidth]{encuesta.jpeg} % Ruta relativa a la imagen
+		 	\caption{Encuesta sobre tendencias}
+		 	\label{fig:encuesta}
+	        \end{figure}
+	 
+	        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet viverra lorem. Sed elementum augue dolor, eget tempor justo porttitor at. Donec elit magna, scelerisque a tempor et, suscipit eget libero. Nunc magna lorem, tincidunt ut ligula non, mattis eleifend erat. Nullam ornare nunc ligula, ut gravida elit rutrum nec. \cite{autor2024}
 		
 		\section{Material y método}
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet viverra lorem. Sed elementum augue dolor, eget tempor justo porttitor at. Donec elit magna, scelerisque a tempor et, suscipit eget libero. Nunc magna lorem, tincidunt ut ligula non, mattis eleifend erat. Nullam ornare nunc ligula, ut gravida elit rutrum nec.
@@ -95,5 +111,14 @@
 		"Avances en la Programación Matemática",
 		Actas del Congreso Internacional de Matemáticas, pp. 567-578, 2022.
 	\end{thebibliography}
+
+        \vspace{0.5em}
+
+        \begin{minipage}[t]{0.2\textwidth} % Alineación a la izquierda y tamaño
+		\centering
+		\includegraphics[width=\textwidth]{license.png} % Ruta relativa a la imagen
+		\vspace{0.5em}
+		\small \textcopyright 2024 Autor.
+	\end{minipage}
 	
 \end{document}
